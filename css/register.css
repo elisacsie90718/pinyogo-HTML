@@ -1,0 +1,132 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo{
+    padding-top: 16px;
+}
+.registerarea{
+    margin-top: 20px;
+    height: 520px;
+    border: 1px solid #CCCCCC;
+}
+.registerarea h3{
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666666;
+    background-color: #ECECEC;
+}
+.login{
+    float: right;
+    width: 113px;
+    font-size: 14px;
+}
+.style-red{
+    color: red;
+}
+.reg-form{
+    width: 600px;
+    margin: 55px auto 0;
+  
+}
+.reg-form ul li{
+    margin-bottom: 20px;
+}
+.reg-form ul li label{
+    /*label 是行內元素*/
+    display: inline-block;
+    /*給寬度*/
+    width: 88px;
+    /*靠右對齊*/
+    text-align: right;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.reg-form ul li .inp{
+    width: 240px;
+    height: 34px;
+    border: 1px solid #999999;
+
+
+}
+.error{
+    color: #df3033;
+}
+.error_icon{
+    /*i 是行內元素*/
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    margin-right: 2px;
+}
+.sussess{
+    color: green;
+}
+.sussess_icon{
+    /*i 是行內元素*/
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/success.png) no-repeat;
+    margin-right: 2px;
+}
+.safe{
+    padding-left: 170px;
+}
+.safe em{
+    margin-left: 1px;
+    padding: 0 11px;
+}
+.safe em.max{
+    background-color: #f79100;
+    margin-left: 8px;
+}
+.mid{
+    background-color: #40b83f;
+}
+.min{
+    background-color: #de1111;
+}
+.agree{
+    padding-left: 95px;
+}
+.agree input{
+    vertical-align: middle;
+    margin:0 14px;
+}
+.agree a{
+    color: #1ba1e6;
+}
+.btn{
+    margin: 30px 0 0 80px;
+    width: 240px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+}
+.mod-copyright{
+    padding-top: 20px;
+    text-align: center;
+}
+.links{
+    margin-bottom: 15px;
+}
+
+.links a{
+    margin: 0 3px;
+}
+.copyright{
+    line-height: 20px;
+}
